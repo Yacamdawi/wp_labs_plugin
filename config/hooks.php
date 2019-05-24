@@ -38,7 +38,7 @@ return [
     ['phpmailer_init', [Setup::class, 'mailtrap']],
 
     ['admin_post_send-mail', [MailController::class, 'send']],
-    ['admin_post_nopriv_send-mail', [MailController::class, 'send']],  
+    ['admin_post_nopriv_send-mail', [MailController::class, 'send']],
 
     ['admin_post_send-newsletter', [NewsletterController::class, 'send']],
     ['admin_post_nopriv_send-newsletter', [NewsletterController::class, 'send']],
