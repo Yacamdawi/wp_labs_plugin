@@ -1,0 +1,1 @@
+<input type="text" name="description_client" id="description_client" value="<?php echo $description; ?>">
